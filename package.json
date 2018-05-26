@@ -1,0 +1,27 @@
+{
+  "name": "vechorkaAdmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "vechorkaAdmin": "server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightFury2/vechorkaAdmin.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "saga"
+  ],
+  "author": "NightFury2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NightFury2/vechorkaAdmin/issues"
+  },
+  "homepage": "https://github.com/NightFury2/vechorkaAdmin#readme"
+}

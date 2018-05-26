@@ -1,6 +1,6 @@
 # Admin panel for Vechorka site
 
-[![Demo on Heroku](https://img.shields.io/badge/demo-heroku-brightgreen.svg?style=flat-square)](https://react-redux.herokuapp.com)
+[![Demo on Heroku](https://img.shields.io/badge/demo-heroku-brightgreen.svg?style=flat-square)](https://dashboard.heroku.com/apps/vechorka-admin)
 
 ---
 
@@ -39,7 +39,7 @@ npm run start
 
 ## Demo
 
-A demonstration of this app can be seen [running on heroku](https://react-redux.herokuapp.com), which is a deployment of the [heroku branch](https://github.com/erikras/react-redux-universal-hot-example/tree/heroku).
+A demonstration of this app can be seen [running on heroku](https://heroku.com/apps/vechorka-admin), which is a deployment of the [heroku branch](https://github.com/erikras/react-redux-universal-hot-example/tree/heroku).
 
 ## Deployment on Heroku
 
