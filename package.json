@@ -23,5 +23,25 @@
   "bugs": {
     "url": "https://github.com/NightFury2/vechorkaAdmin/issues"
   },
-  "homepage": "https://github.com/NightFury2/vechorkaAdmin#readme"
+  "homepage": "https://github.com/NightFury2/vechorkaAdmin#readme",
+  "dependencies": {
+    "better-npm-run": "^0.1.0",
+    "fs": "0.0.1-security",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-dom-server": "0.0.5",
+    "react-inline-css": "^2.3.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.9.1"
+  }
 }
