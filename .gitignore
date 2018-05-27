@@ -4,5 +4,6 @@ dist/
 *.iml
 webpack-assets.json
 webpack-stats.json
+package-lock.json
 npm-debug.log
 *.swp
