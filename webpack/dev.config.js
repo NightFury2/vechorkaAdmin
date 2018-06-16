@@ -68,7 +68,7 @@ module.exports = {
   entry: {
     'main': [
       'webpack-hot-middleware/client?path=http://' + host + ':' + port + '/__webpack_hmr',
-      // './src/client.js'
+      './src/client.js'
     ]
   },
   output: {
@@ -79,8 +79,8 @@ module.exports = {
   },
   module: {
     rules: [
-      // {test: /\.jsx?$/, use: [{ loader: 'babel?' + JSON.stringify(babelLoaderQuery) }, { loader: 'eslint-loader' }] },
-      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel?' + JSON.stringify(babelLoaderQuery), 'eslint-loader']},
+      // {test: /\.jsx?$/, exclude: /node_modules/, use: [{ loader: 'babel?' + JSON.stringify(babelLoaderQuery) }, { loader: 'eslint-loader' }] },
+      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel-loader?' + JSON.stringify(babelLoaderQuery), 'eslint-loader']},
       { test: /\.json$/, use: 'json-loader' },
       { test: /\.less$/, use: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!autoprefixer?browsers=last 2 version!less?outputStyle=expanded&sourceMap' },
       { test: /\.scss$/, use: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!autoprefixer?browsers=last 2 version!sass?outputStyle=expanded&sourceMap' },

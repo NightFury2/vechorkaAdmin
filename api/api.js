@@ -59,7 +59,6 @@ if (config.apiPort) {
     console.info('----\n==> 🌎  API is running on port %s', config.apiPort);
     console.info('==> 💻  Send requests to http://%s:%s', config.apiHost, config.apiPort);
   });
-
 } else {
   console.error('==>     ERROR: No PORT environment variable has been specified');
 }
